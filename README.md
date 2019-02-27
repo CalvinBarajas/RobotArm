@@ -86,8 +86,13 @@ https://www.amazon.com/Ram-Pro-Helping-Hands-Magnifier-Alligator/dp/B078SY5DPZ/r
 This is my inspiration video for this project:
 https://www.youtube.com/watch?v=M-LKlea_6Vs
 
+===========================SOFTWARE===========================
+
+SOFTWARE INCLUDED:
+
+- change IDs
+- Slow motor movement
+- Fast motor movement
 
 
-SOFTWARE:
-change IDs
-
+eof
