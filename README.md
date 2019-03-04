@@ -24,8 +24,9 @@ https://www.fastenal.com/products/details/0170097
 https://www.fastenal.com/products/details/36003
 
 ===========================COUPLERS===========================
-
-Bioloid Frame F1 (One)
+<ul>
+ <li>Bioloid Frame F1 (One)</li>
+</ul>
 Bioloid Frame F2 (One – one of these comes with each motor)
 Bioloid Frame F3 (Five – each motor comes with one of these)
 Bioloid Frame F4 (One)
