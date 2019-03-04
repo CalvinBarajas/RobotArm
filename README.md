@@ -25,14 +25,14 @@ https://www.fastenal.com/products/details/36003
 
 ===========================COUPLERS===========================
 <ul>
- <li>Bioloid Frame F1 (One)</li>
+<li>Bioloid Frame F1 (One)</li>
+<li>Bioloid Frame F2 (One – one of these comes with each motor)</li>
+<li>Bioloid Frame F3 (Five – each motor comes with one of these)</li>
+<li>Bioloid Frame F4 (One)</li>
+<li>Bioloid Frame F8 (Two)</li>
+<li>Bioloid Frame F10 (Two)</li>
+<li>Source: https://www.trossenrobotics.com/robot-parts.aspx</li>
 </ul>
-Bioloid Frame F2 (One – one of these comes with each motor)
-Bioloid Frame F3 (Five – each motor comes with one of these)
-Bioloid Frame F4 (One)
-Bioloid Frame F8 (Two)
-Bioloid Frame F10 (Two)
-Source: https://www.trossenrobotics.com/robot-parts.aspx
 
 ===========================ARM STAND===========================
 
