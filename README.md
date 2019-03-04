@@ -6,13 +6,13 @@
 <h3>CONTROLLER</h3>
 <hr />
 
-<p>Raspberry Pi 3B (https://www.adafruit.com/product/3055?src=raspberrypi).</p>
+<p>&nbsp;&nbsp;&nbsp;&bull; Raspberry Pi 3B (https://www.adafruit.com/product/3055?src=raspberrypi).</p>
 
 <hr />
 <h3>MOTORS</h3>
 <hr />
 
-<p>Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come with a whole bunch of tiny bolts, nuts, plastic washer, etc (https://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx).</p>
+<p>&nbsp;&nbsp;&nbsp;Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come with a whole bunch of tiny bolts, nuts, plastic washer, etc (https://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx).</p>
 
 <hr />
 <h3>NUTS AND BOLTS</h3>
