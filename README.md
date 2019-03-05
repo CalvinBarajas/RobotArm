@@ -1,7 +1,5 @@
 <h1>RobotArm</h1>
 
-<h2>Dynamixel AX-12A Robotic Arm</h2>
-
 <p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the documentation (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
 
 <hr />
@@ -29,7 +27,7 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
  <li>(qty 14): 1-72 Finished Hex Nut ($0.28)</li>
 </ul>
 
-<p>You can order these online if you can purchase just 14 of each. Please note that the 1-72 nut is slightly smaller than the nuts that come with the AX-12A (not a big deal at all). Here's an example of a vendor (I have not used them):</p>
+<p>You can order these online if you can purchase in small quantities. Please note that the 1-72 nut is slightly smaller than the nuts that come with the AX-12A (not a big deal at all). Here's an example of a vendor which I have never used but seems to sell in small quantities (let me know if you find a good online vendor, and I can update these links):</p>
 
 <ul>
 <li>https://www.fastenal.com/products/details/0170097</li>
@@ -119,12 +117,12 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <h3>SOFTWARE</h3>
 <hr />
 
-<p>Files (Code) Included In This Repository:</p>
+<p><strong>Files (Code) Included In This Repository:</strong></p>
 
 <ul>
- <li>How to change motor IDs. I'm using 1, 2, 3, 4 (4 is the hand motor, 1 is the shoulder motor)</li>
- <li>Slow motor movement. Use this when you are starting out and be ready to kill power if the motors are not behaving as expected.</li>
- <li>Fast motor movement. You can use this on the final project to speed things up a bit.</li>
+ <li>How to change motor IDs (dynamixel_write_ID.py). I'm using 1, 2, 3, 4 (4 is the hand motor, 1 is the shoulder motor)</li>
+ <li>Slow motor movement (arm_project_slow_movement.py). Use this when you are starting out and be ready to kill power if the motors are not behaving as expected.</li>
+ <li>Fast motor movement (arm_project_fast_movement.py). You can use this on the final project to speed things up a bit.</li>
 </ul>
 
 <hr />
@@ -137,10 +135,10 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p></li>
 
 <li><p><strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br/>
-Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents like the one above. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p></li>
+Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents listed here. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p></li>
 
 <li><p><strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br/>
-Note: They have a great explanation of how to instruction packets and status packets are created. They also have a lot of examples.</p></li>
+Note: They have a great explanation of how instruction packets and status packets are created. They also have a lot of examples.</p></li>
 
 <li><p><strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br/>
 Note: There are a couple of mistakes on this page, but this is what I used initially. The circuit diagram instructions are pretty solid.</p></li>
@@ -148,8 +146,11 @@ Note: There are a couple of mistakes on this page, but this is what I used initi
 <li><p><strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br/>
 Note: Excellent for learning all the pins.</p></li>
 
-<li><p><strong>Everything You Want to Know About Raspberry Pi GPIO:</strong> But Were Afraid to Ask: https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
+<li><p><strong>Everything You Want to Know About Raspberry Pi GPIO: But Were Afraid to Ask:</strong> https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
 Note: One of the most comprehensive Pi resources I've found.</p></li>
+
+<li><p><strong>Controlling AX-12A With 74LS241:</strong> https://memememememememe.me/post/the-dynamixel-ax-12a-servos/<br/>
+Note: This was one of the original documents I used in order to get started. It has a good explanation of why 74LS241 is needed.</p></li>
 
 </ul>
 
@@ -166,7 +167,7 @@ Note: One of the most comprehensive Pi resources I've found.</p></li>
 
 <li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this.</li>
 
-<li><strong>Step 04:</strong> Wire up breadboard with 74LS241 IC (see wiring diagram link above). Be sure to use same color wires if possible. I also purchased this set: 22AWG 6-Color Tinned-Copper Wire Assortment from Jameco and have been very happy with the quality (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705). The 22AWG wire is very nice and "thick" (not the flimsy think wire kind). Just make sure you have wire strippers in order to cut the length you want (https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html). BTW, I'm not pushing Jameco at all. You can purchase from anywhere on the web. The reason I like Jameco is because it's local to me and they sell in small quantities.</li>
+<li><strong>Step 04:</strong> Wire up breadboard with 74LS241 IC (see wiring diagram link above). Be sure to use same color wires if possible. I also purchased a set (22AWG 6-Color Tinned-Copper Wire Assortment) from Jameco and have been very happy with the quality (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705). The 22AWG wire is very nice and "thick" (not the flimsy thin wire kind). Just make sure you have wire strippers in order to cut the length you want (https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html). BTW, I'm not pushing Jameco at all. You can purchase from anywhere on the web. The reason I like Jameco is because it's local to me and they sell in small quantities.</li>
 
 <li><strong>Step 05:</strong> Connect your breadboard to power supply using the alligator clips on the helping hands (see video). Turn the knobs of the power supply way down before you start. Increase the voltage knob up to 9.5 volts (you don't have to touch amp knob, just make sure it's way down).</li>
 
@@ -178,6 +179,7 @@ Note: One of the most comprehensive Pi resources I've found.</p></li>
 
 </ul>
 
+<p>Document Revised 2019/03/05 - Dynamixel AX-12A Robotic Arm</p>
 
 <p>eof</p>
 
