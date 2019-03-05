@@ -152,6 +152,9 @@ Note: One of the most comprehensive Pi resources I've found.</p></li>
 <li><p><strong>Controlling AX-12A With 74LS241:</strong> https://memememememememe.me/post/the-dynamixel-ax-12a-servos/<br/>
 Note: This was one of the original documents I used in order to get started. It has a good explanation of why 74LS241 is needed.</p></li>
 
+<li><p><strong>Checksum Calculator:</strong> http://easyonlineconverter.com/converters/checksum_converter.html <br/>
+Note: Useful tool for calculating checksum. You may also want to take a look at a very good explanation on how to calculate checksum: https://www.digi.com/resources/documentation/Digidocs/90002002/Tasks/t_calculate_checksum.htm?TocPath=API%20Operation%7CAPI%20frame%20format%7C_____1</p></li>
+
 </ul>
 
 
