@@ -2,7 +2,7 @@
 
 <h2>Dynamixel AX-12A Robotic Arm</h2>
 
-<p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the user manuals (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
+<p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the documentation (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
 
 <hr />
 <h3>CONTROLLER</h3>
@@ -121,24 +121,27 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <h3>USERFUL REFERENCE MATERIAL</h3>
 <hr />
 
+<ul>
 
-<p>&bull; <strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br/>
-Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p>
+<li><p><strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br/>
+Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p></li>
 
-<p>&bull; <strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br/>
-Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents like the one above. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p>
+<li><p><strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br/>
+Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents like the one above. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p></li>
 
-<p>&bull; <strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br/>
-Note: They have a great explanation of how to instruction packets and status packets are created. They also have a lot of examples.</p>
+<li><p><strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br/>
+Note: They have a great explanation of how to instruction packets and status packets are created. They also have a lot of examples.</p></li>
 
-<p>&bull; <strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br/>
-Note: There are a couple of mistakes on this page, but this is what I used initially. The circuit diagram instructions are pretty solid.</p>
+<li><p><strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br/>
+Note: There are a couple of mistakes on this page, but this is what I used initially. The circuit diagram instructions are pretty solid.</p></li>
 
-<p>&bull; <strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br/>
-Note: Excellent for learning all the pins.</p>
+<li><p><strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br/>
+Note: Excellent for learning all the pins.</p></li>
 
-<p>&bull; <strong>Everything You Want to Know About Raspberry Pi GPIO:</strong> But Were Afraid to Ask: https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
-Note: One of the most comprehensive Pi resources I've found.</p>
+<li><p><strong>Everything You Want to Know About Raspberry Pi GPIO:</strong> But Were Afraid to Ask: https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
+Note: One of the most comprehensive Pi resources I've found.</p></li>
+
+</ul>
 
 <p>eof</p>
 
