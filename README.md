@@ -173,7 +173,7 @@ Note: This was one of the original documents I used in order to get started. It 
 
 <li><strong>Step 06:</strong> Connect each motor one-by-one and change the motor's ID (1, 2, 3, 4). Check the wiring diagram before connecting anything. Basically, CABLE-20 (250mm 3-pin) that came with your motor (a.k.a., servo, actuator, etc.) connects to the left-hand-side (looking at the motor from the back) so that the GND (ground) pin is facing the middle part of the motor. There are a ton of diagrams on the web showing you this.</li>
 
-<li><strong>Step 07:</strong> Once the IDs are set, begin assembling the arm. Start with motor 1 (shoulder) and play with the code. Add motor 2 and play with the code some more, repeat for the remaining motors testing and observing along the way.</li>
+<li><strong>Step 07:</strong> Once the IDs are set, begin assembling the arm. Start with motor 1 (shoulder) and play with the code. Add motor 2 and play with the code some more, repeat for the remaining motors testing and observing along the way. Once you have a fully assembled arm, bring power up to 11.5 or 12 VDC (volts direct current).</li>
 
 <li><strong>Step 08:</strong> Now film your working arm and upload it to YouTube.</li>
 
