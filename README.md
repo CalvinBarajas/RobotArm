@@ -179,7 +179,7 @@ Note: This was one of the original documents I used in order to get started. It 
 
 </ul>
 
-<p>Document Revised 2019/03/05 - Dynamixel AX-12A Robotic Arm</p>
+<h5>Document Revised 2019/03/05 - Dynamixel AX-12A Robotic Arm</h5>
 
 <p>eof</p>
 
