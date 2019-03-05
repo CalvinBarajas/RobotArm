@@ -25,8 +25,8 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <p>You will also need some longer bolts to connect the Bioloid Frame F10 to Bioloid Frame F8 and Bioloid Frame F3 to Bioloid Frame F4. I went to my hardware store and purchased the following:</p>
 
 <ul>
- <li>Ten (14): 1-72 x 1/2 Flat Head Phillips ($0.25)</li>
- <li>Ten (14): 1-72 Finished Hex Nut ($0.28)</li>
+ <li>(qty 14): 1-72 x 1/2 Flat Head Phillips ($0.25)</li>
+ <li>(qty 14): 1-72 Finished Hex Nut ($0.28)</li>
 </ul>
 
 <p>You can order these online if you can purchase just 14 of each. Please note that the 1-72 nut is slightly smaller than the nuts that come with the AX-12A (not a big deal at all). Here's an example of a vendor (I have not used them):</p>
