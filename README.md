@@ -2,6 +2,8 @@
 
 <h2>Dynamixel AX-12A Robotic Arm</h2>
 
+<p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the user manuals (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
+
 <hr />
 <h3>CONTROLLER</h3>
 <hr />
@@ -23,11 +25,12 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <p>You will also need some longer bolts to connect the Bioloid Frame F10 to Bioloid Frame F8 and Bioloid Frame F3 to Bioloid Frame F4. I went to my hardware store and purchased the following:</p>
 
 <ul>
- <li>Ten (10): 1-72 x 1/2 Flat Head Phillips ($0.25)</li>
- <li>Ten (10): 1-72 Finished Hex Nut ($0.28)</li>
+ <li>Ten (14): 1-72 x 1/2 Flat Head Phillips ($0.25)</li>
+ <li>Ten (14): 1-72 Finished Hex Nut ($0.28)</li>
 </ul>
 
-You can order these online if you can purchase just 10 of each. Here's an example of a vendor (I have not used them):
+<p>You can order these online if you can purchase just 14 of each. Please note that the 1-72 nut is slightly smaller than the nuts that come with the AX-12A (not a big deal at all). Here's an example of a vendor (I have not used them):</p>
+
 <ul>
 <li>https://www.fastenal.com/products/details/0170097</li>
 <li>https://www.fastenal.com/products/details/36003</li>
@@ -48,6 +51,8 @@ You can order these online if you can purchase just 10 of each. Here's an exampl
 <li>Bioloid Frame F10 (Two)</li>
 <li>Source: https://www.trossenrobotics.com/robot-parts.aspx</li>
 </ul>
+
+<p>I perused this video like the Dead Sea Scrolls in order to find out exactly how everything fit together: https://www.youtube.com/watch?v=M-LKlea_6Vs</p>
 
 <hr />
 <h3>ARM STAND</h3>
@@ -112,6 +117,28 @@ You can order these online if you can purchase just 10 of each. Here's an exampl
  <li>Fast motor movement. You can use this on the final project to speed things up a bit.</li>
 </ul>
 
+<hr />
+<h3>USERFUL REFERENCE MATERIAL</h3>
+<hr />
+
+
+<p>&bull; <strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br/>
+Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p>
+
+<p>&bull; <strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br/>
+Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents like the one above. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p>
+
+<p>&bull; <strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br/>
+Note: They have a great explanation of how to instruction packets and status packets are created. They also have a lot of examples.</p>
+
+<p>&bull; <strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br/>
+Note: There are a couple of mistakes on this page, but this is what I used initially. The circuit diagram instructions are pretty solid.</p>
+
+<p>&bull; <strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br/>
+Note: Excellent for learning all the pins.</p>
+
+<p>&bull; <strong>Everything You Want to Know About Raspberry Pi GPIO:</strong> But Were Afraid to Ask: https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
+Note: One of the most comprehensive Pi resources I've found.</p>
 
 <p>eof</p>
 
