@@ -153,5 +153,31 @@ Note: One of the most comprehensive Pi resources I've found.</p></li>
 
 </ul>
 
+
+<hr />
+<h3>STEP-BY-STEP SETUP INSTRUCTIONS</h3>
+<hr />
+
+<ul>
+
+<li><strong>Step 01:</strong> Purchase controller, motors, nuts and bolts, couplers, arm stand, breadboard, power supply, monitor, keyboard, mouse, helping hands, etc.</li>
+
+<li><strong>Step 02:</strong> Connect KVM to Pi (KVM = keyboard, video, mouse). Place the Pi on a non-conductive surface (ceramic, wood, plastic).</li>
+
+<li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this.</li>
+
+<li><strong>Step 04:</strong> Wire up breadboard with 74LS241 IC (see wiring diagram link above). Be sure to use same color wires if possible. I also purchased this set: 22AWG 6-Color Tinned-Copper Wire Assortment from Jameco and have been very happy with the quality (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705). The 22AWG wire is very nice and "thick" (not the flimsy think wire kind). Just make sure you have wire strippers in order to cut the length you want (https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html). BTW, I'm not pushing Jameco at all. You can purchase from anywhere on the web. The reason I like Jameco is because it's local to me and they sell in small quantities.</li>
+
+<li><strong>Step 05:</strong> Connect your breadboard to power supply using the alligator clips on the helping hands (see video). Turn the knobs of the power supply way down before you start. Increase the voltage knob up to 9.5 volts (you don't have to touch amp knob, just make sure it's way down).</li>
+
+<li><strong>Step 06:</strong> Connect each motor one-by-one and change the motor's ID (1, 2, 3, 4). Check the wiring diagram before connecting anything. Basically, CABLE-20 (250mm 3-pin) that came with your motor (a.k.a., servo, actuator, etc.) connects to the left-hand-side (looking at the motor from the back) so that the GND (ground) pin is facing the middle part of the motor. There are a ton of diagrams on the web showing you this.</li>
+
+<li><strong>Step 07:</strong> Once the IDs are set, begin assembling the arm. Start with motor 1 (shoulder) and play with the code. Add motor 2 and play with the code some more, repeat for the remaining motors testing and observing along the way.</li>
+
+<li><strong>Step 08:</strong> Now film your working arm and upload it to YouTube.</li>
+
+</ul>
+
+
 <p>eof</p>
 
