@@ -165,7 +165,7 @@ Note: This was one of the original documents I used in order to get started. It 
 
 <li><strong>Step 02:</strong> Connect KVM to Pi (KVM = keyboard, video, mouse). Place the Pi on a non-conductive surface (ceramic, wood, plastic).</li>
 
-<li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this.</li>
+<li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this. Disable serial console in Pi config utility.</li>
 
 <li><strong>Step 04:</strong> Wire up breadboard with 74LS241 IC (see wiring diagram link above). Be sure to use same color wires if possible. I also purchased a set (22AWG 6-Color Tinned-Copper Wire Assortment) from Jameco and have been very happy with the quality (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705). The 22AWG wire is very nice and "thick" (not the flimsy thin wire kind). Just make sure you have wire strippers in order to cut the length you want (https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html). BTW, I'm not pushing Jameco at all. You can purchase from anywhere on the web. The reason I like Jameco is because it's local to me and they sell in small quantities.</li>
 
