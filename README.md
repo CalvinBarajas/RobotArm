@@ -73,18 +73,22 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 
 <ul>
 
-<li><strong>830 Point High Quality Breadboard:</strong> (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)</li>
+<li>830 Point High Quality Breadboard: (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)<br />
+Note: Don't purchase the cheap breadboards from Amazon. They are usually made with inferior materials and markings are off.</li>
 
-<li><strong>Resistor 10k Ohm 1/4 Watt 5%:</strong> (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html). You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor.</li>
+<li>10k Ohm 1/4 Watt 5% Resistor: (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html). You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor.<br />
+Note: You may just want to get a whole set with different sizes if you plan to do a lot of electronics work.</li>
 
-<li><strong>Tri-State Octal Buffer Line Driver DIP 20 (74LS241):</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167. Raspberry Pi communicates at full-duplex and AX-12A communicates at half-duplex. This IC will manage the communication between full and half duplex.</li>
+<li>Tri-State Octal Buffer Line Driver DIP 20 (74LS241): https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167.<br />
+Note: Raspberry Pi communicates at full-duplex and AX-12A communicates at half-duplex. This IC will manage the communication between full and half duplex.</li>
 
-<li><strong>160 Piece ZipWire Jumper Wire Kit:</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762</li>
+<li>160 Piece ZipWire Jumper Wire Kit: https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762<br />
+Note: This kit is a good starting point. If you want to make your own sizes and plan on doing a lot of projects, I would recommend the assortment below.</li>
 
-<li><strong>(OPTIONAL PURCHASE) 22AWG 6-Color Tinned-Copper Wire Assortment:</strong>  
+<li><strong>(OPTIONAL PURCHASE)</strong> 22AWG 6-Color Tinned-Copper Wire Assortment: 
 https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705</li>
 
-<li><strong>(OPTIONAL PURCHASE) Tool Wire Stripper 20-30AWG Cutter Clamp Wire Loop:</strong> 
+<li><strong>(OPTIONAL PURCHASE)</strong> Tool Wire Stripper 20-30AWG Cutter Clamp Wire Loop: 
 https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html</li>
 
 </ul>
@@ -137,28 +141,28 @@ https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cut
 
 <ul>
 
-<li><p><strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br/>
+<li><p><strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br />
 Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p></li>
 
-<li><p><strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br/>
+<li><p><strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br />
 Note: The AX-12A motors are a "register" based motor. This means you write and read from a table. At first this can be hella confusing but once you understand the basics it makes sense. Pay particular attention to goal position because this will tell you exactly where the motor should be. You might come across some older manuals that are a good reference, but put most of your reading effort into the newer documents listed here. I printed all the documentation onto PDFs, and I annotated the $h*t out of them using Adobe on my PC.</p></li>
 
-<li><p><strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br/>
+<li><p><strong>Instruction & Status Packets (2019):</strong> http://emanual.robotis.com/docs/en/dxl/protocol1/<br />
 Note: They have a great explanation of how instruction packets and status packets are created. They also have a lot of examples.</p></li>
 
-<li><p><strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br/>
+<li><p><strong>How To Setup Hardware & Sample Code:</strong> http://www.oppedijk.com/robotics/control-dynamixel-with-raspberrypi<br />
 Note: There are a couple of mistakes on this page, but this is what I used initially. The circuit diagram instructions are pretty solid.</p></li>
 
-<li><p><strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br/>
+<li><p><strong>Raspberry Pi Pinout: https:</strong> http://pinout.xyz/<br />
 Note: Excellent for learning all the pins.</p></li>
 
-<li><p><strong>Everything You Want to Know About Raspberry Pi GPIO: But Were Afraid to Ask:</strong> https://www.circuits.dk/everything-about-raspberry-gpio/<br/>
+<li><p><strong>Everything You Want to Know About Raspberry Pi GPIO: But Were Afraid to Ask:</strong> https://www.circuits.dk/everything-about-raspberry-gpio/<br />
 Note: One of the most comprehensive Pi resources I've found.</p></li>
 
-<li><p><strong>Controlling AX-12A With 74LS241:</strong> https://memememememememe.me/post/the-dynamixel-ax-12a-servos/<br/>
+<li><p><strong>Controlling AX-12A With 74LS241:</strong> https://memememememememe.me/post/the-dynamixel-ax-12a-servos/<br />
 Note: This was one of the original documents I used in order to get started. It has a good explanation of why 74LS241 is needed.</p></li>
 
-<li><p><strong>Checksum Calculator:</strong> http://easyonlineconverter.com/converters/checksum_converter.html <br/>
+<li><p><strong>Checksum Calculator:</strong> http://easyonlineconverter.com/converters/checksum_converter.html <br />
 Note: Useful tool for calculating checksum. You may also want to take a look at a very good explanation on how to calculate checksum: https://www.digi.com/resources/documentation/Digidocs/90002002/Tasks/t_calculate_checksum.htm?TocPath=API%20Operation%7CAPI%20frame%20format%7C_____1</p></li>
 
 </ul>
