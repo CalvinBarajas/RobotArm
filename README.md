@@ -86,10 +86,12 @@ Note: Raspberry Pi communicates at full-duplex and AX-12A communicates at half-d
 Note: This kit is a good starting point. If you want to make your own sizes and plan on doing a lot of projects, I would recommend the assortment below.</li>
 
 <li><strong>(OPTIONAL) 22AWG 6-Color Tinned-Copper Wire Assortment:</strong> 
-https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705</li>
+https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705<br />
+Note: I love this set because it has all the wire colors we need, you can cut any length, and the wire is thick enough to penetrate breadboard holes nicely.</li>
 
-<li><strong>(OPTIONAL) 7-in-1 Tool Hand HT-1042 26-16AWG Wire:</strong> 
-https://www.jameco.com/z/HT-1042-R-Hanlong-Tools-7-in-1-Tool-Hand-HT-1042-26-16AWG-Wire_127862.html?CID=MERCH</li>
+<li><strong>(OPTIONAL) 7-in-1 Tool Hand HT-1042 26-16AWG Wire Stripper:</strong> 
+https://www.jameco.com/z/HT-1042-R-Hanlong-Tools-7-in-1-Tool-Hand-HT-1042-26-16AWG-Wire_127862.html?CID=MERCH<br />
+Note: You want to get a wire stripper like this one because working with the 22AWG wires above will be easier.</li>
 
 </ul>
 
