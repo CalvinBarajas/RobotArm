@@ -73,13 +73,19 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 
 <ul>
 
-<li>830 Point High Quality Breadboard: (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)</li>
+<li><strong>830 Point High Quality Breadboard:</strong> (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)</li>
 
-<li>Resistor 10k Ohm 1/4 Watt 5% (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html). You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor.</li>
+<li><strong>Resistor 10k Ohm 1/4 Watt 5%:</strong> (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html). You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor.</li>
 
-<li>Tri-State Octal Buffer Line Driver DIP 20 (74LS241): https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167. Raspberry Pi communicates at full-duplex and AX-12A communicates at half-duplex. This IC will manage the communication between full and half duplex.</li>
+<li><strong>Tri-State Octal Buffer Line Driver DIP 20 (74LS241):</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167. Raspberry Pi communicates at full-duplex and AX-12A communicates at half-duplex. This IC will manage the communication between full and half duplex.</li>
 
-<li>160 Piece ZipWire Jumper Wire Kit: https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762</li>
+<li><strong>160 Piece ZipWire Jumper Wire Kit:</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762</li>
+
+<li><strong>(OPTIONAL PURCHASE) 22AWG 6-Color Tinned-Copper Wire Assortment:</strong>  
+https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705</li>
+
+<li><strong>(OPTIONAL PURCHASE) Tool Wire Stripper 20-30AWG Cutter Clamp Wire Loop:</strong> 
+https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html</li>
 
 </ul>
 
