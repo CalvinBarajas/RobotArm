@@ -73,22 +73,22 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 
 <ul>
 
-<li>830 Point High Quality Breadboard: (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)<br />
+<li><strong>830 Point High Quality Breadboard:</strong> (https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=20723)<br />
 Note: Don't purchase the cheap breadboards from Amazon. They are usually made with inferior materials and markings are off.</li>
 
-<li>10k Ohm 1/4 Watt 5% Resistor: (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html). You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor.<br />
-Note: You may just want to get a whole set with different sizes if you plan to do a lot of electronics work.</li>
+<li><strong>10k Ohm 1/4 Watt 5% Resistor:</strong> (https://www.jameco.com/z/CF1-4W103JRC-Resistor-Carbon-Film-10k-Ohm-1-4-Watt-5-_691104.html).<br />
+Note: You don’t want backpower/backfeed to damage the Pi and that’s why you need this resistor. You may just want to get a whole set with different sizes if you plan to do a lot of electronics work.</li>
 
-<li>Tri-State Octal Buffer Line Driver DIP 20 (74LS241): https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167.<br />
+<li><strong>Tri-State Octal Buffer Line Driver DIP 20 (74LS241):</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=47167.<br />
 Note: Raspberry Pi communicates at full-duplex and AX-12A communicates at half-duplex. This IC will manage the communication between full and half duplex.</li>
 
-<li>160 Piece ZipWire Jumper Wire Kit: https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762<br />
+<li><strong>160 Piece ZipWire Jumper Wire Kit:</strong> https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2260762<br />
 Note: This kit is a good starting point. If you want to make your own sizes and plan on doing a lot of projects, I would recommend the assortment below.</li>
 
-<li><strong>(OPTIONAL PURCHASE)</strong> 22AWG 6-Color Tinned-Copper Wire Assortment: 
+<li><strong>(OPTIONAL) 22AWG 6-Color Tinned-Copper Wire Assortment:</strong> 
 https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=2153705</li>
 
-<li><strong>(OPTIONAL PURCHASE)</strong> Tool Wire Stripper 20-30AWG Cutter Clamp Wire Loop: 
+<li><strong>(OPTIONAL) Tool Wire Stripper 20-30AWG Cutter Clamp Wire Loop:</strong> 
 https://www.jameco.com/z/HT-5023-R-Hanlong-Tools-Tool-Wire-Stripper-20-30AWG-Cutter-Clamp-Wire-Loop_159291.html</li>
 
 </ul>
