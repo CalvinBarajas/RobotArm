@@ -143,7 +143,7 @@ Note: You want to get a wire stripper like this one because working with the 22A
 
 <ul>
 
-<li><p><strong>Wiring Diagram:</strong> https://raw.githubusercontent.com/jeremiedecock/pyax12/master/docs/images/breadboard.png<br />
+<li><p><strong>Wiring Diagram:</strong> https://github.com/jeremiedecock/pyax12<br />
 Note: This French dude (Jérémie Decock) is a genius. Follow the diagram to connect all the cables in the breadboard.</p></li>
 
 <li><p><strong>AX-12A Control Table (2019):</strong> http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/<br />
