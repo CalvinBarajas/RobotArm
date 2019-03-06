@@ -41,12 +41,12 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <p>Take a look at the video I made and you can pretty easily see how each one of the following fits into the arm.</p>
 
 <ul>
-<li>Bioloid Frame F1 (One)</li>
-<li>Bioloid Frame F2 (One – one of these comes with each motor)</li>
-<li>Bioloid Frame F3 (Five – each motor comes with one of these)</li>
-<li>Bioloid Frame F4 (One)</li>
-<li>Bioloid Frame F8 (Two)</li>
-<li>Bioloid Frame F10 (Two)</li>
+<li>Bioloid Frame F1 (qty: 1)</li>
+<li>Bioloid Frame F2 (qty: 1) Note: one of these comes with each motor</li>
+<li>Bioloid Frame F3 (qty: 5) Note: each motor comes with one of these</li>
+<li>Bioloid Frame F4 (qty: 1)</li>
+<li>Bioloid Frame F8 (qty: 2)</li>
+<li>Bioloid Frame F10 (qty: 2)</li>
 <li>Source: https://www.trossenrobotics.com/robot-parts.aspx</li>
 </ul>
 
@@ -181,8 +181,6 @@ Note: Useful tool for calculating checksum. You may also want to take a look at 
 <li><strong>Step 08:</strong> Now film your working arm and upload it to YouTube.</li>
 
 </ul>
-
-<h5>Document Revised 2019/03/05 - Dynamixel AX-12A Robotic Arm</h5>
 
 <p>eof</p>
 
