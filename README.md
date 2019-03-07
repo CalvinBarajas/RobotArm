@@ -1,23 +1,23 @@
-<h1>RobotArm</h1>
+<h1>RobotArm ($315 to $500 + tax + S&H)</h1>
 
 <p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the documentation (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
 
 <hr />
-<h3>CONTROLLER</h3>
+<h3>CONTROLLER ($35)</h3>
 <hr />
 
 <p>&nbsp;&nbsp;&nbsp;&bull;
 Raspberry Pi 3B (https://www.adafruit.com/product/3055?src=raspberrypi).</p>
 
 <hr />
-<h3>MOTORS</h3>
+<h3>MOTORS ($180)</h3>
 <hr />
 
 <p>&nbsp;&nbsp;&nbsp;&bull; 
 Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come with a whole bunch of tiny bolts, nuts, plastic washer, etc (https://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx).</p>
 
 <hr />
-<h3>NUTS AND BOLTS</h3>
+<h3>NUTS AND BOLTS ($8)</h3>
 <hr />
 
 <p>You will also need some longer bolts to connect the Bioloid Frame F10 to Bioloid Frame F8 and Bioloid Frame F3 to Bioloid Frame F4. I went to my hardware store and purchased the following:</p>
@@ -35,7 +35,7 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 </ul>
 
 <hr />
-<h3>COUPLERS</h3>
+<h3>COUPLERS ($10 to $18)</h3>
 <hr />
 
 <p>Take a look at the video I made and you can pretty easily see how each one of the following fits into the arm.</p>
@@ -53,7 +53,7 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <p>I perused this video like the Dead Sea Scrolls in order to find out exactly how everything fit together: https://www.youtube.com/watch?v=M-LKlea_6Vs</p>
 
 <hr />
-<h3>ARM STAND</h3>
+<h3>ARM STAND ($10 to $30)</h3>
 <hr />
 
 <p>You are going to need something to hold the arm down with. I happened to have a spare knife block, but you can use anything you like as long as it’s relatively heavy. You can also purchase a block of wood at your lumber store. I nailed my Bioloid Frame F3 to the knife block but you may want to purchase small wood screws (tiny) instead. By using nails, it's a nightmare to take off. I also like the setup Corgitronics has on YouTube (https://www.youtube.com/watch?v=M20P-k8dF4g&t=314s). He purchased the following:</p>
@@ -68,7 +68,7 @@ Dynamixel AX-12A (Four) When you purchase the Dynamixel AX-12A motors, they come
 <p>He also talks about “corner connector blocks” but I’m not sure here. You can certainly ask him on his video (he answers quickly). Video also shows some kind of metal coupler between the 1st motor and the base.</p>
 
 <hr />
-<h3>BREADBOARD SETUP</h3>
+<h3>BREADBOARD SETUP ($30 to $50)</h3>
 <hr />
 
 <ul>
@@ -96,7 +96,7 @@ Note: You want to get a wire stripper like this one because working with the 22A
 </ul>
 
 <hr />
-<h3>POWER SUPPLY</h3>
+<h3>POWER SUPPLY ($40)</h3>
 <hr />
 
 <p>I purchased a cheapo used power supply from eBay. I’ve had it for a couple of months now and works just fine. I like the power supply better than batteries because batteries drain too quickly.</p>
@@ -108,7 +108,7 @@ Note: You want to get a wire stripper like this one because working with the 22A
 <p>If you purchase it from eBay, make sure you call them (Cogwe11 are in the Bay Area of California) and ask them to include the test-lead-set (the red and black wires you connect to the posts). Wires are not included in the eBay purchase. Be careful with the power supply as you can easily kill yourself with anything over 1 amp.</p>
 
 <hr />
-<h3>OTHER</h3>
+<h3>OTHER ($142)</h3>
 <hr />
 
 <ul>
