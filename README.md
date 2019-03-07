@@ -1,4 +1,5 @@
-<h1>RobotArm ($315 to $500 + tax + S&H)</h1>
+<h1>RobotArm ($315 to $500 + Tax + S&H)</h1>
+<h4>Estimated Avg Cost: $215 (Most People Have Some Of The Components Already)</h4>
 
 <p>In this project, you want to proceed slowly (I cannot emphasize this enough). Add one motor, and see how it behaves. Add a second motor, and see how they both behave, and so on. Make sure you study the documentation (links provided below) and familiarize yourself with how the technology works. It took me about 5 weeks of working full-time to get to this point. I had to learn electricity (current, amps, voltage, capacitors, resistors, etc.), python, Linux, UART, and on and on and on. You can benefit from my hard work in this project.</p>
 
