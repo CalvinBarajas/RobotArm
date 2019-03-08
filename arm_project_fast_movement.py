@@ -22,7 +22,7 @@ GPIO.setup(channel, GPIO.OUT)
 ser = serial.Serial("/dev/ttyS0", baudrate=1000000, timeout=3.0)
 
 class Arm():
-    def move_far_right(self):
+    def move_far_right(self): # method 001
         # SERVO 01:         FAR RIGHT
         # GOAL POSITION:    056[0x038]
         # SPEED:            150[0x96]
@@ -32,7 +32,7 @@ class Arm():
         GPIO.output(channel, GPIO.LOW)
         time.sleep(sleep_long)
 
-    def move_far_left(self):
+    def move_far_left(self): # method 002
         # SERVO 01:         FAR LEFT
         # GOAL POSITION:    356[0x164]
         # SPEED:            150[0x96]
@@ -42,7 +42,7 @@ class Arm():
         GPIO.output(channel, GPIO.LOW)
         time.sleep(sleep_long)
 
-    def move_farther_left(self):
+    def move_farther_left(self): # method 003
         # THE FOLLOWING CODE IS USED FOR CORRECTING POSITION
         # SERVO 01:         LEFT (FAR LEFT - WOOD BLOCK PERSPECTIVE)
         # GOAL POSITION:    360[0x168]**
