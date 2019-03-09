@@ -94,6 +94,9 @@ Note: I love this set because it has all the wire colors we need, you can cut an
 https://www.jameco.com/z/HT-1042-R-Hanlong-Tools-7-in-1-Tool-Hand-HT-1042-26-16AWG-Wire_127862.html?CID=MERCH<br />
 Note: You want to get a wire stripper like this one because working with the 22AWG wires above will be easier.</li>
 
+<li><strong>(OPTIONAL) JIALIUJ Pick Up Tools Powerful Four Claw Paws Parts Chip Grabber Screw Precision Components Part Gripper Hand Tool Set</strong> https://www.amazon.com/JIALIUJ-Powerful-Grabber-Precision-Components/dp/B07NY823HP/ref=sr_1_4?keywords=screw+pickup+tool+claw&qid=1552153887&s=industrial&sr=1-4<br />
+Note: When working with super tiny nuts and bolts, this tool is a real life saver. You can also purchase plastic versions of this one for $3.00 at a computer store.</li>
+
 </ul>
 
 <hr />
