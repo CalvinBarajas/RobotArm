@@ -184,7 +184,7 @@ Note: Useful tool for calculating checksum. You may also want to take a look at 
 
 <li><strong>Step 02:</strong> Connect KVM to Pi (KVM = keyboard, video, mouse). Place the Pi on a non-conductive surface (ceramic, wood, plastic).</li>
 
-<li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this. Disable serial console in Pi config utility.</li>
+<li><strong>Step 03:</strong> Format SD card, install Raspbian on Pi, connect to the net, update software to latest. Many videos on YouTube cover this. Enable serial port and disable serial console in Pi config utility.</li>
 
 <li><strong>Step 04:</strong> Wire up breadboard with 74LS241 IC (see wiring diagram link above). Be sure to use same color wires if possible. I also purchased a set (22AWG 6-Color Tinned-Copper Wire Assortment) from Jameco (see links above) and have been very happy with the quality. The 22AWG wire is very nice and "thick" (not the flimsy thin-wire kind). Just make sure you have wire strippers in order to cut the length you want. BTW, I'm not pushing Jameco at all. You can purchase from anywhere on the web. The reason I like Jameco is because it's local to me and they sell in small quantities.</li>
 
@@ -192,11 +192,14 @@ Note: Useful tool for calculating checksum. You may also want to take a look at 
 
 <li><strong>Step 06:</strong> Connect each motor one-by-one and change the motor's ID (1, 2, 3, 4). Check the wiring diagram before connecting anything. Basically, CABLE-20 (250mm 3-pin) that came with your motor (a.k.a., servo, actuator, etc.) connects to the left-hand-side (looking at the motor from the back) so that the GND (ground) pin is facing the middle part of the motor. There are a ton of diagrams on the web showing you this.</li>
 
-<li><strong>Step 07:</strong> Once the IDs are set, begin assembling the arm. Start with motor 1 (shoulder) and play with the code. Add motor 2 and play with the code some more, repeat for the remaining motors testing and observing along the way. Once you have a fully assembled arm, bring power up to 11.5 or 12 VDC (volts direct current).</li>
+<li><strong>Step 07:</strong> Once the IDs are set, begin assembling the arm. Start with motor 1 (shoulder) and play with the code. Add motor 2 and play with the code some more, repeat for the remaining motors testing and observing along the way. Once you have a fully assembled arm, bring power up to 11.1 VDC (volts direct current).</li>
 
 <li><strong>Step 08:</strong> Now film your working arm and upload it to YouTube.</li>
 
 </ul>
+
+<p>Check it out on Instructables.com: https://www.instructables.com/id/RobotArm-2/</p>
+<p>Check it out on YouTube: https://www.youtube.com/channel/UCY6rwa3NrBVojsvjdOysjrA?view_as=subscriber</p>
 
 <p>eof</p>
 
